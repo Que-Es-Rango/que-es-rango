@@ -1,0 +1,12 @@
+{
+  "extends": "../../tsconfig.lib.json",
+  "include": ["src", "types"],
+  "compilerOptions": {
+    "outDir": "dist",
+    "lib": ["dom", "esnext"],
+    "baseUrl": ".",
+    "rootDirs": ["./src", "../../../translations"],
+    "jsx": "react",
+    "verbatimModuleSyntax": true
+  }
+}
